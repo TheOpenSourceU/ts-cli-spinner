@@ -14,14 +14,14 @@
   "keywords": [
     "spin,spinner,spinning,progress,indicator,console"
   ],
-  "author": "Alexander <alykoshin@gmail.com>",
+  "author": "Frank Villasenor <frank@theOpenSourceU.org>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alykoshin/text-spinner.git"
+    "url": "https://github.com/TheOpenSourceU/text-spinner.git"
   },
   "bugs": {
-    "url": "https://github.com/alykoshin/text-spinner/issues"
+    "url": "https://github.com/TheOpenSourceU/text-spinner/issues"
   },
   "homepage": "https://github.com/alykoshin/text-spinner",
   "devDependencies": {
