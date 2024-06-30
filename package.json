@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheOpenSourceU/ts-cli-spinner.git"
+    "url": "git+https://github.com/TheOpenSourceU/ts-cli-spinner.git"
   },
   "bugs": {
     "url": "https://github.com/TheOpenSourceU/ts-cli-spinner/issues"
