@@ -47,7 +47,7 @@ const TextSpinner = function (options: TextSpinnerOptionsType) {
     render();
   }
 
-  return {start, stop};
+  return {start, stop, clear: clean};
 }
 
 export default TextSpinner;

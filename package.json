@@ -1,33 +1,29 @@
 {
-  "name": "text-spinner",
+  "name": "ts-cli-spinner",
   "version": "1.0.0",
-  "description": "Spinning progress indicator for console applications",
+  "description": "Spinning progress indicator for console (CLI) applications",
   "main": "dist/index.js",
-  "engines": {
-    "node": ">=21.0.0"
-  },
   "scripts": {
     "build": "tsup",
     "test": "jest",
     "test:1": "node examples/app1.js"
   },
   "keywords": [
-    "spin,spinner,spinning,progress,indicator,console"
+    "MIT,cli,spin,spinner,spinning,progress,indicator,console"
   ],
   "author": "Frank Villasenor <frank@theOpenSourceU.org>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TheOpenSourceU/text-spinner.git"
+    "url": "https://github.com/TheOpenSourceU/ts-cli-spinner.git"
   },
   "bugs": {
-    "url": "https://github.com/TheOpenSourceU/text-spinner/issues"
+    "url": "https://github.com/TheOpenSourceU/ts-cli-spinner/issues"
   },
-  "homepage": "https://github.com/alykoshin/text-spinner",
+  "homepage": "https://github.com/TheOpenSourceU/ts-cli-spinner",
   "devDependencies": {
     "@types/node": "^16.11.11",
     "@types/jest": "^27.0.3",
-
     "jest": "^29.7.0",
     "tsup": "^8.1.0",
     "ts-jest": "^29.1.2",
