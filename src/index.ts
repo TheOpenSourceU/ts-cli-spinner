@@ -4,7 +4,7 @@ type TextSpinnerOptionsType = {
 };
 
 const TextSpinner = function (options: TextSpinnerOptionsType) {
-  const interval = options.interval || 100;
+  const interval = Math.abs(options.interval) || 100;
   const prefix = "";
   const postfix = '\x1B[0G';
   const spinner  = [ '|', '/', '-', '\\' ];
@@ -31,7 +31,7 @@ const TextSpinner = function (options: TextSpinnerOptionsType) {
   }
   function render() {
     //Was _print
-    print(spinner[ spinIdx ]);
+    print(spinner[spinIdx]);
   }
   function start() {
     if(active) return;
