@@ -1,6 +1,7 @@
 {
   "name": "ts-cli-spinner",
-  "version": "1.0.0",
+  "scope": "@theOpenSourceU",
+  "version": "1.0.1",
   "description": "Spinning progress indicator for console (CLI) applications",
   "main": "dist/index.js",
   "scripts": {

@@ -1,9 +1,11 @@
-TODO: Badges maybe
+[![npm version](https://badge.fury.io/js/ts-cli-spinner.svg)](https://badge.fury.io/js/ts-cli-spinner)
+[![Known Vulnerabilities](https://snyk.io/test/github/TheOpenSourceU/ts-cli-spinner/badge.svg)](https://snyk.io/test/github/TheOpenSourceU/ts-cli-spinner)
+[![GitHub license](https://img.shields.io/github/license/TheOpenSourceU/ts-cli-spinner.svg)
 
 # ts-cli-spinner
 
 Typescript based CLI Working indicator for Node-Based
-CLI applications. Based on [text-spinner](https://www.npmjs.com/package/text-spinner) package.
+CLI applications. 
 
 ## Example Use
 
