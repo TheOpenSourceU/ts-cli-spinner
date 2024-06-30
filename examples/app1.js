@@ -4,11 +4,7 @@
 
 'use strict';
 
-var spinner = require('../')({ interval: 500 });
+const TextSpinner = require('../dist').default;
+const spinner = TextSpinner({ interval: 500 });
+spinner.start();
 
-
-setInterval(function() {
-
-  spinner.spin();
-
-}, 10);
