@@ -35,5 +35,5 @@ module.exports = {
   testTimeout: 10000,
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test.
-  setupFilesAfterEnv: ["./jest.setup.ts"],
+  //setupFilesAfterEnv: ["./jest.setup.ts"],
 };
